@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:gravity="center"
+        android:id="@+id/tv_welcome"
+        android:textSize="35sp"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tell_us_your_name"
+        android:gravity="center"
+        android:id="@+id/tv_tell_us"
+        android:layout_below="@+id/tv_welcome"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:hint="@string/name"
+        android:id="@+id/et_login_name"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:textColor="#727272"
+        android:textSize="20sp"
+        android:paddingStart="15dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:hint="@string/friend_s_contact_number"
+        android:visibility="invisible"
+        android:id="@+id/et_login_number"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#727272"
+        android:inputType="phone"
+        android:textSize="20sp"
+        android:paddingStart="30dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:id="@+id/tv_friends_number_message"
+        android:layout_below="@+id/et_login_number"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="@string/next"
+        android:layout_below="@id/tv_friends_number_message"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/blue_button"
+        android:textColor="#ffffff"
+        android:id="@+id/bt_login_next"
+        android:textSize="25sp" />
+
+</RelativeLayout>

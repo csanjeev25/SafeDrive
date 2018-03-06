@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">SafeDrive</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="_100">100</string>
+    <string name="_102">102</string>
+    <string name="_112">112</string>
+    <string name="_181">181</string>
+    <string name="emergency_numbers">Emergency Numbers</string>
+    <string name="call_help_on">call help on :</string>
+    <string name="send_help_sms_to">Send help sms to :</string>
+    <string name="blood_alcohol_concentration_ncalculator">Blood Alcohol Concentration Calculator</string>
+    <string name="bac_level_shown_here_is_just_for_informative_purpose_and_not_a_legal_advice_legal_permitted_bac_level_varies_from_country_to_country_according_to_the_law_imposed_by_the_current_government_n_nenter_details_and_press_submit_to_get_your_bac_level">BAC level shown here is just for informative purpose and not a legal advice. Legal permitted BAC level varies from country to country according to the law imposed by the current government.  Enter details and press submit to get your BAC level.</string>
+    <string name="weight">Weight</string>
+    <string name="eg_80">eg. 80</string>
+    <string name="kg">kg</string>
+    <string name="pounds">Pounds</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="hours_elapsed_since_drinking">Hours elapsed since drinking :</string>
+    <string name="drinks_consumed">Drinks consumed :</string>
+    <string name="beer">Beer</string>
+    <string name="spirit">Spirit</string>
+    <string name="wine">Wine</string>
+    <string name="_0">0</string>
+    <string name="submit">Submit</string>
+    <string name="find_cab_taxi_in_my_location">FIND CAB/TAXI IN MY LOCATION.</string>
+    <string name="note_this_feature_requires_a_working_internet_connection">Note: This feature requires a working internet connection!</string>
+    <string name="welcome">Welcome!</string>
+    <string name="tell_us_your_name">Tell us your name</string>
+    <string name="name">Name</string>
+    <string name="friend_s_contact_number">Friend\'s contact number</string>
+    <string name="next">Next</string>
+    <string name="logout">Logout</string>
+    <string name="feedback">Feedback</string>
+    <string name="share">Share</string>
+</resources>
